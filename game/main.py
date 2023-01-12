@@ -15,6 +15,7 @@ def choose_options():
   print('Computer option => ', computer_opc)
   return user_opc, computer_opc
 
+
 def check_rules(user_opc, computer_opc, user_wins, computer_wins):
   if user_opc == computer_opc:
     print('Empate!')
@@ -35,6 +36,7 @@ def check_rules(user_opc, computer_opc, user_wins, computer_wins):
     print('Computer gana!')
     computer_wins += 1
   return user_wins, computer_wins
+
 
 def check_winner(user_wins, computer_wins):
   if user_wins == 3:
